@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: moveit_resources_ur5_description
+    relative_path: urdf/ur5.urdf
+  srdf:
+    relative_path: config/ur5.srdf
+  package_settings:
+    author_name: ds
+    author_email: d.shanahan1@lancaster.ac.uk
+    generated_timestamp: 1688064136

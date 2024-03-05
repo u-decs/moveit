@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: moveit_resources_manipulator_2_description
+    relative_path: urdf/manipulator_2.urdf
+  srdf:
+    relative_path: config/manipulator_2.srdf
+  package_settings:
+    author_name: D S
+    author_email: d.shanahan1@lancaster.ac.uk
+    generated_timestamp: 1686224917
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

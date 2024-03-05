@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>moveit_resources_manipulator_2_description</name>
+  <version>2.0.6</version>
+  <description>Hydro-Lek Resources used for MoveIt testing</description>
+
+  <author email="d.shanahan1@lancaster.ac.uk">Declan Shanahan</author>
+
+  <maintainer email="d.shanahan1@lancaster.ac.uk">Declan Shanahan</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://moveit.ros.org</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit-resources/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit-resources</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>
